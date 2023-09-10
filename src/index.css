@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --text-color: 44 44 44;
+    --accent: 202 160 10;
+    --error: 239 68 68;
+  }
+  :root.dark {
+    --background: 33 33 33;
+    --text-color: 192 192 192;
+    --error: 96 28 28;
+  }
+}
