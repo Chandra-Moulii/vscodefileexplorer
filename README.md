@@ -5,7 +5,7 @@ Introducing a sleek and intuitive VSCode sidebar, meticulously crafted for seaml
 ## Dark theme
 ![explorerdarktheme](https://github.com/Chandra-Moulii/vscodefileexplorer/assets/91885493/1be86b7b-271a-41eb-bbcb-7472febc9e88)
 
-$$ Light theme
+## Light theme
 ![explorerlighttheme](https://github.com/Chandra-Moulii/vscodefileexplorer/assets/91885493/4535f9e2-be6e-4707-84e7-88fca4594e86)
 
 ## Folders open state
