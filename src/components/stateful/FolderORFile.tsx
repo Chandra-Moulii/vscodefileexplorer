@@ -117,7 +117,7 @@ export default function FolderORFile(props: FolderORFilePropTypes) {
   if (!dataTree) return;
 
   return (
-    <div className="flex-grow text-xs">
+    <div className="text-xs">
       {dataTree?.type === items.FOLDER ? (
         <div>
           <div
@@ -125,7 +125,7 @@ export default function FolderORFile(props: FolderORFilePropTypes) {
             tabIndex={0}
           >
             <button
-              className="flex w-full cursor-pointer items-center justify-between gap-1 text-left font-medium outline-none focus:bg-skin-color/10 focus:ring-1"
+              className="flex w-full cursor-pointer items-center justify-between gap-1 overflow-hidden truncate text-left font-medium outline-none focus:bg-skin-color/10 focus:ring-1"
               onClick={() => setExpandState((prev) => !prev)}
             >
               {expandState ? (

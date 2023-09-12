@@ -3,6 +3,7 @@ import FileExplorer from "./components/stateful/FileExplorer";
 export default function App() {
   return (
     <div className="flex bg-skin-background text-skin-color">
+      <FileExplorer />
       <div className="grid flex-grow items-center justify-center">
         <svg
           className="aspect-square w-full fill-neutral-400 transition-transform dark:fill-neutral-700"
@@ -15,7 +16,6 @@ export default function App() {
           </g>
         </svg>
       </div>
-      <FileExplorer />
     </div>
   );
 }
